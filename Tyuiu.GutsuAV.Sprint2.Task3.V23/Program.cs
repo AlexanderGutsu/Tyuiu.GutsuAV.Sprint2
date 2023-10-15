@@ -12,6 +12,22 @@ namespace Tyuiu.GutsuAV.Sprint2.Task3.V23
     {
         static void Main(string[] args)
         {
+            Console.Title = "Спринт #2 | Выполнил: Гуцу А. В. | ИИПБ-23-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #2                                                               *");
+            Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #23                                                             *");
+            Console.WriteLine("* Выполнил: Гуцу Александр Владимирович | ИИПБ-23-1                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
             Console.Write("Введите значение переменной X: ");
             double x = double.Parse(Console.ReadLine());
 
@@ -33,9 +49,12 @@ namespace Tyuiu.GutsuAV.Sprint2.Task3.V23
             {
                 y = x + 10 * x - (1 / Math.Pow(x, 2));
             }
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Значение функции Y: " + Math.Round(y, 3));
-            Console.ReadLine();
+            Console.ReadKey();
         }
         
     }

@@ -9,7 +9,7 @@ namespace Tyuiu.GutsuAV.Sprint2.Task5.V15.Test
     {
 
         [TestMethod]
-        public void ValindFindMonthDay()
+        public void ValindFindDay()
         {
             DataService ds = new DataService();
             int k = 1;
